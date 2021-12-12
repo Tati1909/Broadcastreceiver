@@ -5,13 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <fragment
-        android:layout_height="match_parent"
-        android:layout_width="0dp"
-        class="com.example.intentservice.ServiceFragment"
-        android:id="@+id/mainfragment"
-        android:layout_weight="0.5"/>
 
 </LinearLayout>
